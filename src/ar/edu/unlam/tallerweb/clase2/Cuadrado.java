@@ -1,22 +1,19 @@
 package ar.edu.unlam.tallerweb.clase2;
 
-public class Cuadrado {
+public class Circulo {
 
-	private Integer lado;
+	private Integer radio;
 
-	public Cuadrado(Integer lado) {
+	public Circulo(Integer radio) {
 		this.lado = lado;
 	}
 
-	public Integer perimetro() {
+	public Integer calculaPerimetro() {
 
-		return lado * 4;
+		return radio*2* Math.PI ;
 	}
 
-	public Integer superficie() {
-		
-		return lado * lado;
-	}
+	
 
 	
 		
